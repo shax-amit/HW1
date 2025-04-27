@@ -22,7 +22,7 @@ header {
     z-index: 1000;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 30px 0; /* ⬅️ הגדלתי את הגובה עם padding עליון ותחתון */
+    padding: 30px 0; 
 }
 
 .container {
@@ -271,9 +271,12 @@ header {
 }
 
 .heart-circle {
-    width: 47px;
-    height: 47px;
-    background-color: #EFECFF;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #efe8ff;
     border-radius: 50%;
     position: absolute;
     top: 10px;
@@ -281,17 +284,15 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden; 
+    overflow: hidden;
     z-index: 2;
-    }
+  }
+  
 
-.heart-icon {
-    width: 20px; 
-    height: 20px;
-    object-fit: contain; 
-    position: relative;
-    z-index: 3;
-    }
+  .heart-icon {
+    width: 24px;
+    height: 24px;
+  }
 
 
 
@@ -377,9 +378,9 @@ footer p {
 }
 
 .gallery-container img {
-    border: 5px solid #d8b4fe; /* סגול בהיר */
+    border: 5px solid #d8b4fe; 
     border-radius: 12px;
-    height: 250px; /* כל התמונות יהיו בגובה אחיד */
+    height: 250px;
     object-fit: cover;
 }
 
@@ -434,11 +435,11 @@ th, td {
 }
 
 thead {
-    background-color: #d8b4fe; /* רקע סגול בהיר לשורה העליונה */
+    background-color: #d8b4fe; 
 }
 
 tbody tr:hover {
-    background-color: #f3e8ff; /* אפקט קטן במעבר עכבר */
+    background-color: #f3e8ff; 
 }
 
 
@@ -448,7 +449,7 @@ tbody tr:hover {
 }
 
 .available-matches h2 {
-    color: #612999; /* אותו צבע סגול */
+    color: #612999; 
     font-size: 28px;
     margin-bottom: 20px;
 }
