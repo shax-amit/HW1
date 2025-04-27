@@ -6,20 +6,27 @@
     <title>Upcoming Events</title>
     <link rel="stylesheet" href="css/style.css" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&family=Abel&display=swap"
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <div class="container">
         <div class="logo">
-          <h1>Football Tickets</h1>
+          <img
+            src="images/football-icon.png"
+            alt="Football Logo"
+            class="logo-img"
+          />
+          <span class="logo-text">Football Tickets</span>
         </div>
         <nav class="navigation">
           <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="events.html" class="active">Events</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="#">Contact</a></li>
           </ul>
         </nav>
@@ -36,14 +43,27 @@
         </div>
       </section>
 
-      <section class="features">
-        <h2>Why Book With Us?</h2>
-        <ul>
-          <li>🚀 Fast and easy booking process</li>
-          <li>✅ 100% secure payment</li>
-          <li>⚽ Access to the best matches</li>
-          <li>🎟️ Official tickets guaranteed</li>
-          <li>📞 24/7 customer support</li>
+      <section class="available-matches">
+        <h2>Available Matches</h2>
+        <ul class="match-list">
+          <li>
+            <span class="match-icon">
+              <img src="icons/til.svg" alt="ticket icon" />
+            </span>
+            Maccabi Tel Aviv vs Beitar Jerusalem
+          </li>
+          <li>
+            <span class="match-icon">
+              <img src="icons/til.svg" alt="ticket icon" />
+            </span>
+            Maccabi Haifa vs Maccabi Tel Aviv
+          </li>
+          <li>
+            <span class="match-icon">
+              <img src="icons/til.svg" alt="ticket icon" />
+            </span>
+            Maccabi Tel Aviv vs Hapoel Be'er Sheva
+          </li>
         </ul>
       </section>
 
@@ -61,17 +81,17 @@
             <tr>
               <td>Maccabi Tel Aviv vs Beitar Jerusalem</td>
               <td>VIP</td>
-              <td>$200</td>
+              <td>$20</td>
             </tr>
             <tr>
               <td>Maccabi Haifa vs Maccabi Tel Aviv</td>
               <td>Regular</td>
-              <td>$120</td>
+              <td>$12</td>
             </tr>
             <tr>
               <td>Maccabi Tel Aviv vs Hapoel Be'er Sheva</td>
               <td>Premium</td>
-              <td>$150</td>
+              <td>$15</td>
             </tr>
           </tbody>
         </table>
@@ -79,7 +99,34 @@
     </main>
 
     <footer>
-      <!-- בדיוק אותו פוטר שהכנת בעמוד הראשי -->
+      <div class="footer-container">
+        <div class="footer-column">
+          <h4>Who We Are</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Work With Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-column">
+          <h4>Follow Us</h4>
+          <ul>
+            <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+            <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+            <li>
+              <a href="https://instagram.com" target="_blank">Instagram</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-icons">
+        <img src="icons/twitter.svg" alt="Twitter" class="footer-icon" />
+        <img src="icons/facebook.svg" alt="Facebook" class="footer-icon" />
+        <img src="icons/instagram.svg" alt="Instagram" class="footer-icon" />
+      </div>
+
+      <p>© 2025 Football Tickets</p>
     </footer>
   </body>
 </html>

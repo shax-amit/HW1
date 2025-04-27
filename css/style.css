@@ -440,3 +440,46 @@ thead {
 tbody tr:hover {
     background-color: #f3e8ff; /* אפקט קטן במעבר עכבר */
 }
+
+
+.available-matches {
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.available-matches h2 {
+    color: #612999; /* אותו צבע סגול */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.match-list {
+    list-style: none;
+    padding: 0;
+}
+
+.match-list li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.match-icon {
+    background-color: #612999;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-right: 15px;
+    font-size: 16px;
+}
+
+.match-icon img {
+    width: 16px;
+    height: 16px;
+}
